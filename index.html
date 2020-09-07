@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <title>Yoga</title>
+        <style>
+            
+            .center img {
+                
+                width: 100px;
+                height: 80px;
+                
+            }
+            h1 {
+                display: inline;
+                text-align: center;
+                color: rgba(221, 55, 5, 0.918);
+                
+            }
+            h2{
+                text-align: center;
+                color: rgba(221, 55, 5, 0.918);
+                border: 1px solid rgba(221, 55, 5, 0.918);
+                border-radius: 10px;
+                padding: 15px;;
+            }
+            img{
+                width: 100%;
+                border-radius: 10px;
+            }
+            p{
+                font-size: 14px;
+                line-height:1.5;
+            }
+            button{
+                width:100%;
+                background:rgba(221, 55, 5, 0.918);
+                color: white;
+                border: none;
+                padding: 15px;
+                font-size: 20px;
+                border-radius: 30px;
+                margin: 20px 0;
+                cursor: pointer;
+            }
+            footer{
+                text-align: center;
+                font-size:15px;
+            }
+        </style>
+    </head>
+    <body>
+        <table class="center">
+            <tr>
+                <td>
+                    <img src="yoga3.jpg">
+                </td>
+                <td> <h1>&nbsp;&nbsp;Yoga</h1></td>
+            </tr>
+        </table>
+        <h2>Discipline</h2>
+        <img src="yoga2.jpg">
+        <p>This article is about a group of physical, mental and spiritual practices originating in ancient India.
+            Yoga is a group of physical, mental, and spiritual practices or disciplines which originated in ancient
+            India.
+            Yoga is one of the six Āstika (orthodox) schools of Hindu philosophical traditions.
+            There is a broad variety of yoga schools, practices, and goals in Hinduism, Buddhism, and Jainism.
+            The term "Yoga" in the Western world often denotes a modern form of hatha yoga and yoga as exercise, 
+            consisting largely of the postures or asanas.
+        <br/>
+        <br/>
+        <a href="https://en.wikipedia.org/wiki/Yoga">
+        Learn more on Wikipedia
+        </a>
+        </p>
+        <button>
+            Go to Yoga Class
+        </button>
+
+        <footer>
+            Coded by 👩‍💻 <a href="#">Dixita</a>
+        </footer>
+        <script>
+            function subscribe()
+            {
+                let name = prompt("What is your name?");
+                prompt("What is your email address?");
+
+                alert(
+                    'Thanks,' +name +'! You are invited to join the class'
+        
+                );
+            }
+            let button=document.querySelector("button");
+            button.addEventListener("click",subscribe);
+        </script>
+    </body>
+</html>
